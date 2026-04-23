@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "PracticandoExamenViernes.Controllers.ComicsController",
+    "Method": "GetComics",
+    "RelativePath": "api/Comics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PracticandoExamenViernes.Models.Comic, PracticandoExamenViernes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticandoExamenViernes.Controllers.ComicsController",
+    "Method": "CreateComic",
+    "RelativePath": "api/Comics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comic",
+        "Type": "PracticandoExamenViernes.Models.Comic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticandoExamenViernes.Controllers.ComicsController",
+    "Method": "GetComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticandoExamenViernes.Models.Comic",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticandoExamenViernes.Controllers.ComicsController",
+    "Method": "UpdateComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comic",
+        "Type": "PracticandoExamenViernes.Models.Comic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticandoExamenViernes.Controllers.ComicsController",
+    "Method": "DeleteComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
